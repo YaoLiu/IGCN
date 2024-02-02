@@ -1,0 +1,13 @@
+python3 main.py \
+-mode train \
+-support 4 \
+-neighbor 50 \
+-point 1024 \
+-interval 100 \
+-epoch 100 \
+-bs 8 \
+-dataset /home/yaoliu/scratch/data/shapenet/shapenetcore_partanno_segmentation_benchmark_v0 \
+-cuda 4 \
+-save ./experiment6/pointnet/model.pkl \
+-record ./experiment6/pointnet/record.log \
+-model pointnet 

@@ -1,0 +1,13 @@
+python3 main.py \
+-mode train \
+-support 4 \
+-neighbor 64 \
+-point 1024 \
+-interval 100 \
+-lr 0.001 \
+-epoch 200 \
+-bs 8 \
+-dataset /home/yaoliu/scratch/data/shapenet/shapenetcore_partanno_segmentation_benchmark_v0_normal \
+-cuda 7 \
+-save ./experiment6/igcn/model.pkl \
+-record ./experiment6/igcn/record.log \
